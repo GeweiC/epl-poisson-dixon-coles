@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.spyproject/
+.anaconda/
+.DS_Store
+*.db
+*.zip
+# Retain derived results, exclude third-party raw match data pending license check.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
